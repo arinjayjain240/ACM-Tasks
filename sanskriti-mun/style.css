@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+
+    
+@media screen{   
+
+
+body{
+    margin: 0;
+    font-family: sans-serif
+}
+.header{
+    background: url(img/banner.jpg) center    ;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    background-size: cover
+}
+    .container{
+        width: 100%;
+        height:100%;
+        position: absolute;
+    
+    }  
+
+    .header a i {
+        
+        padding-left: 19px;
+
+}
+   .header i{
+       height: 30px;
+       width: 30px;
+       color: #c4ccd1;
+       font-size: 30px;
+       
+        
+    }
+    .header i:hover{
+       
+       color: #f2f5f7;
+       cursor: pointer;
+}
+.header img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin-top: 14%;
+    padding-right: 0.5%
+
+    
+}
+.header p{
+    text-align: center;
+    
+   
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    letter-spacing: px;
+    font-weight:normal;
+    font-size: 80px;
+    
+}
+p{
+    margin: 0;
+}
+.maincontent  p{
+    color: #aaa;
+    font-family: 'Alegreya Sans', sans-serif;
+    width: 60%;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.maincontent h1{
+    color: #28323c;
+    font-weight: 100;
+    font-family: 'Alegreya Sans', sans-serif;
+     font-size: 58px;
+    text-align: center;
+}
+.maincontent{
+    padding:90px;
+}
+.links a{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    box-sizing: border-box;
+    margin-right: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #505a64;
+    padding-top: 20px
+}
+
+
+.links { 
+    white-space: nowrap;
+    overflow-x: hidden;
+     
+    
+}
+.links i{
+    font-size: 300%;
+    color: #fa3c6e;
+    
+}
+.container .links a:hover {
+    background:#fa3c6e;
+    color: white;
+}
+.links a:hover i{
+    background:#fa3c6e;
+    color: white;
+}
+.secretariat img{
+   max-width: 100%;
+    height: ;
+}
+.secretariat a {
+    display: inline-block;
+    width: 16%;
+    align-content: center;
+    padding-right: 40px;
+    text-decoration: none;
+    
+}
+.secretariat a h1 {
+    font-size: 19px;
+    color:white;
+}
+.secretariat h2{
+    font-size: 17px;
+    color: #aaa
+}
+.secretariat {
+    
+        white-space: nowrap;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background: #282d32;
+    color: #fff;
+    padding-bottom: 50px
+    
+}
+.secretariat h5{
+    font-size: 35px;
+}
+.committees a img{
+    max-width: 100%;
+    width: 250px;
+    padding: 0;
+}
+.committees a{
+    width: 30%;
+    display: inline-block;
+    height: 300%;
+   padding-bottom: 20px;
+    text-decoration: none;
+    color: #aaa;
+    font-size: 12px
+}
+section.committees{
+    
+    text-align: center;
+        
+}
+.committees{
+    padding-top: 20px;
+    overflow: hidden;
+}
+.committees h1{
+    font-size: 40px;
+    font-family: 'Alegreya Sans' , sans-serif;
+}
+
+.last{
+    text-align: center;
+    padding-bottom: 100px;
+    
+    background: #f8fafc;
+    
+}
+.last h1{
+    font-size: 40px;
+    margin: 80px;
+    font-weight:normal;
+    text-align: center;
+    padding-top: 30px
+    
+}
+.info  {
+    display:inline-grid;
+    margin: 0 10%;
+    text-align: center
+}
+.info i{
+    font-size: 40px;
+    color: deepskyblue;
+    margin-bottom: 30px;
+}
+.info p {
+    line-height: 2;
+    font-size: 20px;
+    color: #46505a;
+    
+}
+.cover{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 5;
+    
+}
+.cover:target{
+    display: block;
+}
+.overlay{
+    z-index: 10;
+    position: fixed;
+    top:20%;
+    left: 25%;
+    background: #f3f3f3;
+    border: 2px solid grey;
+    height: 60%;
+    width: 60%;
+    overflow-y: scroll;
+}
+.overlay h1{
+    text-align: center;
+}
+.overlay p{
+    margin-left: 12px
+}
+.overlay i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 22px ;
+        
+}
+.header span{
+    padding-top: 30px
+}
+}
+
+@media screen and (max-width:1440px){
+    .last .info{
+        display: inline-grid;
+        width: 30%;
+        margin: 0;
+    }
+    .header img{
+        margin-top: 10%;
+    }
+
+    .committees a{
+    width: 25%;
+    
+}
+    
+    .committees a img{
+        width: 50%;
+    }
+    .secretariat a{
+        padding-right: px;
+        white-space: normal;
+       max-width: 15%;
+        display: inline-grid;
+    }
+    
+   
+        }
+@media screen and (max-width:768px){
+    .header p {
+       font-size: 35px;
+    }
+    
+    .maincontent #mainptab{
+       width: 100%;
+        
+        white-space:inherit;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+    .maincontent p{
+        width: 100%;
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .links a{width: 100%;
+        white-space: normal;
+        overflow: visible;
+        display: block;
+    }
+    .secretariat a {
+        display:grid;
+        width: ;
+        text-align: center;
+        margin-left: 45%;
+            padding: 0;
+       
+    }
+    .secretariat a img{
+        
+        
+        max-width: 240%; 
+    margin-left: -60% }
+    .last .info{
+        display: block;
+        text-align: center;
+        margin: auto;
+            width:auto
+    }
+}
+
+@media screen and (max-width:600px){
+    .committees a{
+        display: block;
+        width: 70%;
+        margin: auto;
+        
+        
+    }
+    .secretariat a{
+        margin-left: 170px
+    }
+}
+@media screen and (max-width:375px){
+    .secretariat a{
+        
+        padding: 0;
+        margin-left: 35%
+            
+    }
+    .maincontent h1{
+        font-size: 40px;
+        margin: -10px;
+        
+    }
+    .maincontent p{
+        width: 300px;
+        margin-left: -90px;
+        margin-top: 80px
+    }
+}
+
+
